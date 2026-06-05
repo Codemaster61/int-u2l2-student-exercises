@@ -15,7 +15,11 @@
      <section>
      
      <!-- 1. Create an unordered list (<ul>) to list the dream travel destinations -->
-        
+        <ul>
+            <a href="https://en.wikipedia.org/wiki/China"><li>China<img src="https://media.istockphoto.com/id/497572532/photo/cityscape-of-guiyang-at-night.jpg?s=612x612&w=0&k=20&c=iZ2avxaTDglVbfygFduRdxADXI-KqUO1nhX4DlPgFZs="></li></a>
+            <a href="https://en.wikipedia.org/wiki/Berlin"><li>Berlin<img src="https://media.istockphoto.com/id/486585530/photo/berlin-skyline-with-spree-river-at-sunset-germany.jpg?s=612x612&w=0&k=20&c=COfGf3zm3CDWUUKv8Kowew73ie5wGr8DfJ0gd88EafQ="></li></a>
+            <a href="https://en.wikipedia.org/wiki/New_York_City"><li>New York City<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_%28cropped%29.jpg/960px-View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_%28cropped%29.jpg"></li></a>
+        </ul>
         <!-- 2. Add 3 list items (<li>), one for each dream travel destination. -->
 
             <!-- 3. Add an anchor tag (<a>) for the link to more information. 
@@ -59,6 +63,7 @@
     body {
         font-family: Arial, sans-serif;
         margin: 20px;
+        background-color:lightblue ;
     }
 
     h1 {
@@ -71,6 +76,7 @@
         margin: 20px 0;
         display: flex;
         justify-content: space-around;
+        
     }
 
     li {
@@ -80,22 +86,25 @@
         padding: 10px;
         border-radius: 5px;
         transition: transform 0.3s ease-in-out;
+        background-color:#8acfe6;
+       
     }
-
     li:hover {
-        transform: scale(1.05);
+        transform: scale(1.10) ;
+        background-color:#3fbee9;
+
     }
 
     img {
-        max-width: 100%;
-        height: auto;
+        max-width: 150px;
+        height: 100px;
         display: block;
         margin: 10px auto;
         border-radius: 5px;
     }
 
     a {
-        color: #0066cc;
+        color: black;
         text-decoration: none;
         font-weight: bold;
     }
